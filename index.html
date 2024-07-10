@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Registration</title>
+</head>
+<body>
+    <center><h1>Student Registration System</h1></center>
+
+    <form action="">
+        
+        <section class="formbox">
+            <div class="form-details">
+            <label for="StudentName">Student Name</label>
+            <input id="StudentName" type="text" name="Student name">
+            </div>
+
+            <div class="form-details">
+            <label for="SID">Student ID</label>
+            <input id="SID" type="number" name="SID">
+            </div>
+
+            <div class="form-details">
+                <label for="email">Email ID</label>
+                <input id="email" type="email" name="emailid">
+            </div>
+
+            <div class="form-details">
+                <label for="Contactno">Contact No.</label>
+                <input id="Contactno" type="number" name="Contactno">
+            </div>
+
+          <button class="Submit-button" type="button"> Submit </button>
+        </section>
+
+        <!-- Display Table -->
+
+        <section class="display">
+            <div class="displaytable">
+                <table id="bigtable" class="table">
+                    <thead>
+                        <th>Student Name</th>
+                        <th>Student ID</th>
+                        <th>Email ID</th>
+                        <th>Contact No:</th>
+                        <th>Changes</th>
+                    </thead>
+                </table>
+            </div>
+        </section>
+    </form>
+
+    <script src="script.js">
+    </script>
+    
+</body>
+</html>

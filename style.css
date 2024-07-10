@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    transition: all 0.3s linear;
+}
+body{
+    background-image: url("https://img.pikbest.com/back_our/bg/20200903/bg/4944fbfc77bca_397993.jpg!w700wp");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+    color: bisque;
+    letter-spacing: 2px;
+    font-size: 300%;
+    overflow-x: hidden;
+    text-shadow: -3px 3px red;
+    position: relative;
+    top: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+form{
+    height: 100vh;
+    width: 300px;
+    margin-left: 40%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formbox{
+    text-shadow: 1px 1px grey;
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(4px);
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px 4px rgb(254, 241, 58);
+    border-radius: 50px;
+    padding: 50px;
+    flex-direction:column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(2px);
+    
+}
+
+
+.formbox > .form-details{
+    margin: 10px;
+    font-size: x-large;
+}
+
+.Submit-button{
+    background-color: rgb(9, 14, 9);
+    color: white;
+    align-self: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    scale: 1.4;
+}
+.Submit-button:hover{
+    scale: 1.7;
+}
+.Update{
+    background-color: rgb(2, 247, 2);
+    color: white;
+    align-self: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    scale: 1.4;
+}
+
+
+
+/* TO Display Details */
+.display{
+    
+    margin-right: 30%;
+    margin-left: auto;
+    position: relative;
+    left:250px;
+}
+
+
+
+.displaytable{
+    width: 550px;
+    height: 500px;
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(4px);
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 3px 3px rgb(228, 196, 66);
+    border-radius: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2px); 
+    overflow-y: scroll; 
+       
+}
+
+/* Just to hide scroll bar to look good */
+.displaytable::-webkit-scrollbar {
+    display: none;
+}
+
+table , tr , td ,th{
+    border: 1px solid white;
+    font-style: bold;
+
+  }
+th {
+    padding: 10px;
+}
+
+
+
+.Editbutton , .Deletebutton{
+    width: 95%;
+    margin: 1px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+.Editbutton{
+    background-color: rgba(0, 175, 0,0.5);
+}
+.Deletebutton{
+    background-color: rgba(255, 2, 2,0.5);
+}
+.Editbutton:active , .Deletebutton:active{
+    background-color: white;
+}
+.Editbutton:hover ,.Deletebutton:hover{
+    scale: 1.3;
+}
